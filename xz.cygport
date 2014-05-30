@@ -1,5 +1,5 @@
 NAME="xz"
-VERSION=5.0.4
+VERSION=5.0.5
 RELEASE=1
 CATEGORY="Archive"
 SUMMARY="LZMA de/compressor"
@@ -10,8 +10,10 @@ SRC_URI="http://tukaani.org/xz/xz-${VERSION}.tar.xz"
 
 PKG_NAMES="xz liblzma5 liblzma-devel"
 xz_CONTENTS="--exclude=*.dll usr/bin/ usr/share/"
+liblzma5_CATEGORY="Libs"
 liblzma5_SUMMARY="${SUMMARY} library (runtime)"
 liblzma5_CONTENTS="usr/bin/cyglzma-5.dll"
+liblzma_devel_CATEGORY="Libs"
 liblzma_devel_SUMMARY="${SUMMARY} library (development)"
 liblzma_devel_CONTENTS="usr/include/ usr/lib/"
 
