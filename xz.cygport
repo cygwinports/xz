@@ -1,5 +1,5 @@
 NAME="xz"
-VERSION=5.2.3
+VERSION=5.2.4
 RELEASE=1
 CATEGORY="Archive"
 SUMMARY="LZMA de/compressor"
